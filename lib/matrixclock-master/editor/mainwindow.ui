@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>768</width>
+    <height>512</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Matrixclock EEPROM editor</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+    <item>
+     <widget class="QTableWidget" name="wgtHexTable">
+      <property name="minimumSize">
+       <size>
+        <width>410</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::NoPen</enum>
+      </property>
+      <property name="rowCount">
+       <number>32</number>
+      </property>
+      <property name="columnCount">
+       <number>16</number>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>22</number>
+      </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>22</number>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>18</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabTranslations">
+       <attribute name="title">
+        <string>Translations</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTableWidget" name="wgtTranslations">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::DotLine</enum>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>200</number>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>200</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>24</number>
+          </attribute>
+          <attribute name="verticalHeaderMinimumSectionSize">
+           <number>24</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>Monday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Tuesday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Wednesday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Thursday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Friday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Saturday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Sunday</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Monday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Tuesday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Wednesday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Thursday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Friday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Saturday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Sunday (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>December</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>January</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>February</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>March</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>April</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>May</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>June</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>July</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>August</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>September</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>October</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>November</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Second (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Minute (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Hour (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Week (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Date (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Month (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Year (short)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Year</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Temperature</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>°C</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Temp. 1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Temp. 2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Temp. 3 (BMP180)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Temp. 4 (DHT22)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Atm. pressure</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>mmHg</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>kPa</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Humidity</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Percent</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Brightness (short)</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Translation</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabParams">
+       <attribute name="title">
+        <string>Parameters</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QWidget" name="wgtBrmax" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="1,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblBrmax">
+             <property name="text">
+              <string>Maximum brightness</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="sbxBrmax">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="maximum">
+              <number>15</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtScroll" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_24" stretch="1,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblScroll">
+             <property name="text">
+              <string>Scrolling interval (sec)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="sbxScroll">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="maximum">
+              <number>255</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtRotate" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="1,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblRotate">
+             <property name="text">
+              <string>Screen rotate feature</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="sbxRotate">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="maximum">
+              <number>15</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="cbxFontsize">
+          <property name="text">
+           <string>Use big font by default</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="cbxHourzero">
+          <property name="text">
+           <string>Show X:YZ time as 0X:YZ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="cbxHoursignal">
+          <property name="text">
+           <string>Beep every hour</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>-1</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>6</number>
+           </property>
+           <property name="bottomMargin">
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblSensData">
+             <property name="text">
+              <string>Data from sensors:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="cbxBmpTemp">
+             <property name="text">
+              <string>Temperature from BMP180</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="cbxDhtTemp">
+             <property name="text">
+              <string>Temperature from DHT22</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="cbxBmpPres">
+             <property name="text">
+              <string>Pressure from BMP180</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="cbxDhtHumi">
+             <property name="text">
+              <string>Humidity from DHT22</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="vspOther">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>231</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabFonts">
+       <attribute name="title">
+        <string>Fonts</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="lblFontBog">
+          <property name="text">
+           <string>Big numbers (for 3 matrixes option):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtFontBig" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>160</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>160</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QListWidget" name="lwgtFontBig">
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QStackedWidget" name="stwgtFontBig">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="hspFontBig">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblFontExtra">
+          <property name="text">
+           <string>Extra numbers (for 4 matrixes option):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtFontExtra" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>160</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>160</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QListWidget" name="lwgtFontExtra">
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QStackedWidget" name="stwgtFontExtra">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>120</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="hspFontExtra">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="vspFonts">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>43</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabAlarm">
+       <attribute name="title">
+        <string>Alarm</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QWidget" name="wgtAlarmTime" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_25" stretch="1,0,0,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblAlarm">
+             <property name="text">
+              <string>Alarm time:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="TimeSpinBox" name="sbxAlarmHour">
+             <property name="suffix">
+              <string>h</string>
+             </property>
+             <property name="maximum">
+              <number>23</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lblAlarmColon">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string> : </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="TimeSpinBox" name="sbxAlarmMinute">
+             <property name="suffix">
+              <string>m</string>
+             </property>
+             <property name="maximum">
+              <number>59</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtAlarmTimeout" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_26" stretch="1,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblAlarmTimeout">
+             <property name="text">
+              <string>Alarm duration:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="TimeSpinBox" name="sbxAlarmTimeout">
+             <property name="suffix">
+              <string>m</string>
+             </property>
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>60</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="wgtAlarmDays" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="spacing">
+            <number>-1</number>
+           </property>
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>6</number>
+           </property>
+           <property name="bottomMargin">
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblAlarmDays">
+             <property name="text">
+              <string>Alarm days:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="wgtAlarmWeek" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <property name="spacing">
+               <number>3</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmMo">
+                <property name="text">
+                 <string>Mo</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmTu">
+                <property name="text">
+                 <string>Tu</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmWe">
+                <property name="text">
+                 <string>We</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmTh">
+                <property name="text">
+                 <string>Th</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmFr">
+                <property name="text">
+                 <string>Fr</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmSa">
+                <property name="text">
+                 <string>Sa</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="cbxAlarmSu">
+                <property name="text">
+                 <string>Su</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="hspAlarmWeek">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>334</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>768</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Fi&amp;le</string>
+    </property>
+    <addaction name="actionOpenEeprom"/>
+    <addaction name="actionSaveEeprom"/>
+    <addaction name="actionSaveEepromAs"/>
+    <addaction name="actionLoadDefaultEeprom"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAboutQt"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpenEeprom">
+   <property name="text">
+    <string>&amp;Open eeprom binary …</string>
+   </property>
+  </action>
+  <action name="actionSaveEeprom">
+   <property name="text">
+    <string>&amp;Save eeprom binary</string>
+   </property>
+  </action>
+  <action name="actionSaveEepromAs">
+   <property name="text">
+    <string>Save &amp;eeprom binary as …</string>
+   </property>
+  </action>
+  <action name="actionLoadDefaultEeprom">
+   <property name="text">
+    <string>&amp;Load default eeprom</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionAboutQt">
+   <property name="text">
+    <string>A&amp;boutQt</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>TimeSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>timespinbox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionOpenEeprom</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openEeprom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSaveEeprom</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveEeprom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSaveEepromAs</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveEepromAs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionLoadDefaultEeprom</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>loadDefaultEeprom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAboutQt</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>aboutQt()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAbout</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>about()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wgtTranslations</sender>
+   <signal>cellChanged(int,int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateTranslation(int,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>465</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxBrmax</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setBrightnessMax(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>651</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxScroll</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setScroll(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>647</x>
+     <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxHourzero</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setHourzero()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>698</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>425</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxBmpTemp</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setSensMask()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxDhtTemp</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setSensMask()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>428</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxBmpPres</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setSensMask()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>429</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxDhtHumi</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setSensMask()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>674</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>428</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lwgtFontBig</sender>
+   <signal>currentRowChanged(int)</signal>
+   <receiver>stwgtFontBig</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>446</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>509</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lwgtFontExtra</sender>
+   <signal>currentRowChanged(int)</signal>
+   <receiver>stwgtFontExtra</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>473</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxAlarmHour</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmHour(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>662</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>59</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxAlarmMinute</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmMinute(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>717</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>680</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmMo</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>438</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmTu</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>482</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmWe</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>532</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>532</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmTh</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>572</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmFr</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>611</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>611</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmSa</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>649</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxAlarmSu</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmDays()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>689</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxHoursignal</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setHoursignal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>732</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbxFontsize</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setFontsize()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>148</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxAlarmTimeout</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setAlarmTimeout(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>715</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>691</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sbxRotate</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setRotate(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>646</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openEeprom()</slot>
+  <slot>updateTranslation(int,int)</slot>
+  <slot>saveEeprom()</slot>
+  <slot>saveEepromAs()</slot>
+  <slot>loadDefaultEeprom()</slot>
+  <slot>setFontsize()</slot>
+  <slot>about()</slot>
+  <slot>aboutQt()</slot>
+  <slot>setBrightnessMax(int)</slot>
+  <slot>setScroll(int)</slot>
+  <slot>setRotate(int)</slot>
+  <slot>setHourzero()</slot>
+  <slot>setSensMask()</slot>
+  <slot>setAlarmHour(int)</slot>
+  <slot>setAlarmMinute(int)</slot>
+  <slot>setAlarmDays()</slot>
+  <slot>setHoursignal()</slot>
+  <slot>setAlarmTimeout(int)</slot>
+ </slots>
+</ui>

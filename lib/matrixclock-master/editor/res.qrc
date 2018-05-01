@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/matrixclock.png</file>
+        <file>res/matrixclock_en.bin</file>
+    </qresource>
+</RCC>

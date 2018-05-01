@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000;}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('CenturyGothic.eot');
+	src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+		url('CenturyGothic.woff') format('woff'),
+		url('CenturyGothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel.eot');
+	src: url('Corbel.eot?#iefix') format('embedded-opentype'),
+		url('Corbel.woff') format('woff'),
+		url('Corbel.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AajtakRegular';
+	src: url('AajtakRegular.eot');
+	src: url('AajtakRegular.eot?#iefix') format('embedded-opentype'),
+		url('AajtakRegular.woff') format('woff'),
+		url('AajtakRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DejaVu Sans Condensed';
+	src: url('DejaVuSansCondensed.eot');
+	src: url('DejaVuSansCondensed.eot?#iefix') format('embedded-opentype'),
+		url('DejaVuSansCondensed.woff') format('woff'),
+		url('DejaVuSansCondensed.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/*top box-1 slider css start */
+			.jssorb05 {
+				bottom: 0;
+				left: 85% !important;
+				position: absolute;
+				top: 84%;
+			}
+                .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                    position: absolute;
+                    /* size of bullet elment */
+                    width: 16px;
+                    height: 16px;
+                    background: url(../images/b05.png) no-repeat;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .jssorb05 div { background-position: -7px -7px; }
+                .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+                .jssorb05 .av { background-position: -67px -7px; }
+                .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+   
+   
+                .jssorb21 {
+                    position: absolute;
+                }
+            .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+                    position: absolute;
+                    /* size of bullet elment */
+                    width: 19px;
+                    height: 19px;
+                    text-align: center;
+                    line-height: 19px;
+                    color: white;
+                    font-size: 12px;
+                    background: url(../images/a21.png) center center no-repeat;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+				
+                .jssorb21 div { background-position: -5px -5px; }
+                .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+                .jssorb21 .av { background-position: -65px -5px; }
+                .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+           
+
+                .jssora21l, .jssora21r {
+                    display: block;
+                    position: absolute;
+                    /* size of arrow element */
+                    width: 55px;
+                    height: 55px;
+                    cursor: pointer;
+                    background: url(../images/a11.png) center center no-repeat;
+                    overflow: hidden;
+                }
+                .jssora21l { background-position: -3px -33px; }
+                .jssora21r { background-position: -63px -33px; }
+                .jssora21l:hover { background-position: -123px -33px; }
+                .jssora21r:hover { background-position: -183px -33px; }
+                .jssora21l.jssora21ldn { background-position: -243px -33px; }
+                .jssora21r.jssora21rdn { background-position: -303px -33px; }
+            
+/*top box-1 slider css end */
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+	
+	.swiper-wrapper img{max-width: 100%;}
+	.swiper-wrapper p {color: #000;font-family: "AajtakRegular";font-size: 22px;font-weight: normal;line-height: 21px;padding: 9px 0 0;}
+	.swiper-wrapper{ cursor:pointer;}
+
+.landing-page-new .box3{min-height:150px; margin-bottom: 10px;padding: 21px 10px 0px;box-shadow:0 0 8px 0px #000;}
+
+*{ margin:0; padding:0;}
+body{font-family: Arial, Helvetica, sans-serif;background:#fff;}
+.clear{clear:both;}
+p{ margin:0;}
+ul{ list-style:none;}
+header{background:url(../images/header_bg.png) repeat-x top left; padding: 0 0 8px; min-height:58px; position:relative;}
+.heading_txt{ color:#fff; font-family:"Corbel"; font-size:19px; font-weight:bold; padding:18px 0 0; text-align:center; overflow:hidden;}
+.innerpage{ text-align:left!important; padding-left:60px!important;}
+.innerpage_lt{ text-align:left!important; padding-left:20px!important;}
+.heading_txt .inner-dream { font-size:24px; padding: 22px 0 0 50px;text-align:left;}
+.logo{ padding:0; position:absolute; right: 0; top: 0;}
+.menu {left:-251px;padding:78px 0px 0 0;position: absolute;top: -78px;z-index: 999;}
+#arrow{background: url("../images/arrow.png") no-repeat 0 0; border: 0px solid #000;margin:19px 0 0 0px;
+ height:27px;width:42px;float:right;cursor:pointer;display:block;}
+.menu .inner_menu{background: #fff; box-shadow:0px 2px 3px #919191; float: left; padding:0 0 36px 0; overflow: hidden;}
+.menu .inner_menu .top-menu-box {background: #d24c3d none repeat scroll 0 0;}
+
+.top-menu-box p { color: #fff; font-size:16px; font-weight: normal; line-height: 24px; margin: 0 4px; padding:17px 12px 17px 5px;}
+
+.menu .inner_menu ul{ list-style:none;}
+.menu .inner_menu ul li {border-bottom: 1px solid #b6b6b6;color: #fff;font-size: 12px;font-weight: bold;list-style-type: none;margin: 0 8px;padding: 0 40px 0 26px;}
+.menu .inner_menu ul li:nth-child(1){background: url("../images/home.png") no-repeat scroll left 14px;}
+.menu .inner_menu ul li:nth-child(2){ background:url(../images/my-account.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(3){ background: url(../images/redeem-point.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(4){ background: url(../images/product-feedback.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(5){ background: url(../images/sampling-feedback.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(6){ background: url(../images/change-password.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(7){ background: url(../images/help.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(8){ background: url(../images/rate-us.png) no-repeat left top 14px;}
+.menu .inner_menu ul li:nth-child(9){ background: url(../images/logout.png) no-repeat left top 14px;}
+
+.menu .inner_menu ul li a{color: #222222;display: block;font-family: Arial, Helvetica, sans-serif;font-size: 15px;font-weight: normal;padding:14px 35px 13px 5px;text-decoration: none;}
+.wrapper{margin: 0 auto; padding:0px 8px; background: #fff;}
+.footer{ font-size:10px; color:#5c5c5c; text-align:center; padding:2px 0;}
+
+.common_btn{ background:url(../images/button_bg.png) repeat-x top left; font-size:14px; color:#fff; text-align:center; padding:7px 30px; margin:15px 10px 0 0; display:inline-block; text-decoration:none;}
+.small_btn{ background:url(../images/button_bg.png) repeat-x top left; font-size:11px; color:#fff; text-align:center; padding:5px 15px; margin:5px 0 0 25px; display:inline-block; text-decoration:none;}
+.row_btn{ padding:5px; font-size:12px; text-align:center;}
+input[type=submit] { cursor:pointer;}
+.content_bx .thanks{ text-align:center;}
+.content_bx .thanks p{ font-size:14px; color:#000; line-height:20px;}
+/*Homepage css starts here*/
+.top_dashboard{ background:#fff; padding:5px; min-height:120px; overflow:hidden; box-shadow:0 0 4px 0 #d3d3d3; margin-bottom:8px;}
+.inner_left{ width:60%; background:url(../images/dashboard_seperator.png) right 5px no-repeat; float:left; }
+.inner_left .loyalty{ text-align:center; font-family: 'Century Gothic'; font-size:20px; color:#000; padding:18px 0 0 0;}
+.inner_left .loyalty span{ font-size:25px; display:block; padding:5px 0 20px 0;}
+.inner_left .target{ text-align:center; font-family: 'Century Gothic'; font-size:13px; color:#000; padding:0 0 5px 0;}
+.inner_left .target a{ font-size:9px; color:#000;}
+.inner_right{ width:40%; float:right; text-align:center; padding-top:15px;}
+.box_heading{ background:url(../images/header_bg.png) repeat-x top left; min-height:46px; margin-bottom:8px;}
+.box_heading span{ font-family:Arial, Helvetica, sans-serif; font-size:17px; color:#fff; padding:12px 0 0px 72px; display:inline-block;}
+.redemption{ background:url(../images/heading_icon1.png) no-repeat top left; min-height:46px;}
+.content_bx{ background:#fff; padding:10px 15px; overflow:hidden; box-shadow:0 0 4px 0 #d3d3d3; margin-bottom:8px;}
+.pro_feedback{ background:url(../images/heading_icon2.png) no-repeat top left; min-height:46px;}
+.feedback_form{ padding:2px;}
+.feedback_form p { font-family:Arial, Helvetica, sans-serif; font-size:15px; padding-bottom:10px;}
+..dropdown{ overflow:hidden;}
+.dropdown select{ border:1px solid #c9c9c9; background:#f7f7f7; font-size:13px; width:53%; padding:5px;}
+.dropdown .click_btn{ background:url(../images/button_bg.png) repeat-x top left; font-size:14px; color:#fff; text-align:center; padding:5px 30px;}
+.samp_feedback{ background:url(../images/heading_icon3.png) no-repeat top left; min-height:46px;}
+
+/*Redemption css starts here*/
+.redemption_outer { overflow:hidden;}
+.redemption_outer .prod_img{ border:1px solid #000; float:left; margin-right:10px; margin-bottom:10px; width:95px;}
+.redemption_outer .prod_desc{ overflow:hidden; font-family:Arial, Helvetica, sans-serif;}
+.redemption_outer .prod_desc .title{ font-size:16px; padding-bottom:3px; padding-top:3px;}
+.redemption_outer .prod_desc .desc{ font-size:12px; padding-bottom:3px;}
+.redemption_outer .prod_desc .desc a{ font-size:11px; float:right; margin:20px 0; color:#000; display:inline-block;}
+.redemption_outer .prod_desc .address{ font-size:12px; padding-bottom:3px; margin:20px 0;}
+.redemption_outer .prod_desc .address a{ font-size:11px; float:right; margin:20px 0; color:#000; display:inline-block;}
+.redemption_outer .prod_desc strong{ font-weight:bold;}
+
+
+/*sampling feedback css starts here*/
+
+.feedback_outer{ overflow:hidden; border-bottom:1px solid #efefef; padding:20px 0;}
+
+.feedback_outer .row{ padding:5px; font-size:12px;}
+.row label{ font-size:12px; width:47%; display:inline-block; float:left;}
+.row input{ font-size:12px; width:40%; border:1px solid #a0a0a0; background:#f7f7f7; padding:4px;}
+.row textarea{ font-size:12px; width:40%; border:1px solid #a0a0a0; background:#f7f7f7; padding:4px;}
+.row select{ font-size:12px; width:43%; border:1px solid #a0a0a0; background:#f7f7f7; padding:4px;}
+.row input[type=checkbox] { margin-top:25px; margin-left:13px; width:auto; }
+
+/*recharge css starts here*/
+.address_book{ background:url(../images/addbook-icon.jpg) 0px 2px no-repeat; display:inline-block; width:17px; height:20px; padding-bottom:2px; float:right;}
+.recharge_outer{ overflow:hidden; padding:20px 0;}
+
+.recharge_outer .row{ padding:5px; font-size:12px;}
+
+/*product feedback css starts here*/
+.prod_feed_outer{ overflow:hidden; padding:5px 0;}
+
+.prod_feed_outer .row{ padding:15px 0px 15px 0px; font-size:12px;  border-bottom:1px solid #efefef; overflow:hidden;}
+.prod_feed_outer .row span{ font-size:14px; margin-right:3px; float:left;}
+.prod_feed_outer .row label{ font-size:14px; width:100%; display:flex; width:auto; float:none;}
+.prod_feed_outer .row .rdo_btns{ width:99%; display:inline-block; margin:15px 0 0 10px;}
+.prod_feed_outer .row .rdo_btns span{display:block; margin:0 0 8px 0; width:100%;}
+.prod_feed_outer .row input[type=radio] { margin:0px 0px 10px 10px; width:auto; padding:0; }
+
+/*FAQ css starts here*/
+.faq_outer{ overflow:hidden; padding:5px 0;}
+.normal_heading{ font-family: 'Corbel'; font-size:16px; font-weight:bold; color:#000; padding-top:10px;}
+.faq_outer .row{ padding:15px 0px 15px 0px; font-size:13px;  border-bottom:1px solid #efefef; overflow:hidden;}
+.faq_outer .row span{ margin-right:3px; float:left;}
+.faq_outer .row .ques{ width:100%; display:flex; width:auto; float:none;}
+.faq_outer .faq_answer{ width:99%; display:inline-block; margin:5px 0 0 0px; font-size:12px;}
+
+
+/*My Account css starts here*/
+.my_account_outer .row{ padding:15px 0px 15px 0px; border-bottom:1px solid #efefef; overflow:hidden; text-align:center;}
+.my_account_outer .row p{ float:left; font-size:13px; padding:15px 0; width:30%;}
+.my_account_outer .row span{ display:block; float:left; font-size:13px; padding:15px 0; width:30%;}
+.my_account_outer .row p a{ font-size:11px; color:#000; margin-left:10px;}
+.my_account_outer .row table{ border-left:1px solid #dbdbdb; border-top:1px solid #dbdbdb; font-size:12px;}
+.my_account_outer .row table th{ font-weight:bold; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb; padding:10px;}
+.my_account_outer .row td{ padding:10px; border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb;}
+
+
+/*Sign up/change password/login css starts here*/
+.signup_outer{ overflow:hidden; padding:5px 0;}
+.signup_outer .row{ padding:10px 0px 10px 0px; overflow:hidden; text-align:center;}
+
+.signup_outer a.links{ float:right; font-size:11px; color:#000; margin-right:17px; margin-bottom:1px;}
+
+
+
+
+

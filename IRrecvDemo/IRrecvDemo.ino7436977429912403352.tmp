@@ -1,0 +1,52 @@
+/*
+ * IRremote: IRrecvDemo - demonstrates receiving IR codes with IRrecv
+ * An IR detector/demodulator must be connected to the input RECV_PIN.
+ * Version 0.1 July, 2009
+ * Copyright 2009 Ken Shirriff
+ * http://arcfn.com
+ */
+
+#include <IRremote.h>
+
+int RECV_PIN = 9;
+const int buzzer = 6; //buzzer to arduino pin 9
+
+IRrecv irrecv(RECV_PIN);
+
+decode_results results;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(buzzer, OUTPUT); // Set buzzer - pin 9 as an output
+  //lcd.begin(16, 2);
+  Serial.println("Testing");
+  irrecv.enableIRIn(); // Start the receiver
+}
+
+void loop() {
+if (irrecv.decode(&results)) {
+    //lcd.clear();
+    //lcd.println(results.value);//, DEC);
+    Serial.println("Loop");
+    Serial.println(results.value, DEC);
+    irrecv.resume(); // Receive the next value
+  
+    
+    /*tone(buzzer, 400); // Send 1KHz sound signal...
+    delay(500);        // ...for 1 sec
+    noTone(buzzer);     // Stop sound...
+    delay(500);        // ...for 1sec
+    */
+  }
+}
+
+void playTone(){
+    tone(buzzer, 400); // Send 1KHz sound signal...
+    delay(500);        // ...for 1 sec
+    noTone(buzzer);     // Stop sound...
+    delay(500);        // ...for 1sec
+      
+}
+
+

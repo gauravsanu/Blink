@@ -1,0 +1,8 @@
+
+http://electronics.stackexchange.com/questions/176067/smd-crystal-solder-problem-and-any-recommended-test-procedure
+http://electronics.stackexchange.com/questions/42818/is-case-grounding-compulsory-in-typical-32-768khz-crystal-for-real-time-clock/161354
+
+Plate for projects
+https://www.google.co.in/search?q=plexiglass+plates&oq=plexiglass+plates&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8
+Acrylic sheet 
+Nice work! I love the clock. Time to upgrade to DS3231! Set it and forget it.

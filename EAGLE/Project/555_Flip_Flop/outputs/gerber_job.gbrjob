@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.1*%
+%TF.CreationDate,2018-02-10T19:35:33Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Gauravsanu Gauravsanu <gauravsanu@gmail.com>*%
+%TJ.B_ID,555_led_blink*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,32.690000*%
+%TJ.B_Size_Y,35.550000*%
+M02*

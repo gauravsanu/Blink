@@ -1,0 +1,15 @@
+1. Arduino Nano
+2. Zero PCB board (35mm x 150mm)
+3. 3mm LED x 8
+4. 220 ohm Resistor x 8
+5. 100 ohm Resistor x 1
+6. 10k ohm Resistor x 2
+7. Opto sensor(H21A1)
+8. Transistor BC337 (NPN)
+9. 500mah LiPo Battery
+10. Dc Motor
+
+https://diyhacking.com/arduino-pov-display/
+http://www.robotechmaker.com/
+http://arduinoandelectronics.blogspot.in/2014/02/make-propeller-clock-using-arduino.html
+http://www3.nd.edu/~dmurph14/initial.pdf

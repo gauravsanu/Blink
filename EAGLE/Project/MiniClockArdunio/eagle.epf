@@ -1,0 +1,21 @@
+[Eagle]
+Version="08 06 01"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/gaurav.shrivastava/Desktop/Eagle/1wire.lbr"
+UsedLibrary="C:/Users/gaurav.shrivastava/Desktop/Eagle/diy-modules.lbr"
+UsedLibrary="C:/Users/gaurav.shrivastava/Desktop/Eagle/Adafruit-DS3231-Precision-RTC-Breakout-PCB-master/Adafruit DS3231 RTC Breakout.lbr"
+UsedLibrary="C:/Users/gaurav.shrivastava/Desktop/Eagle/opto-resistor.lbr"
+UsedLibrary="C:/Users/gaurav.shrivastava/Desktop/Eagle/rcl.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
